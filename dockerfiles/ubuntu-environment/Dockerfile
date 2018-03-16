@@ -1,5 +1,5 @@
 #
-# Necessary configuration to running MPI applications with the ubuntu distribuition
+# required setting to running MPI applications with the ubuntu distribuition
 #
 
 # Pull base image.
