@@ -13,7 +13,8 @@ import MPI
 
 comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
-
+print (comm)
+print (rank)
 if rank == 0:
     data = {'a': 7, 'b': 3.14}
     comm.send(data, dest=1, tag=11)
