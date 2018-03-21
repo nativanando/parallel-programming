@@ -24,14 +24,15 @@ rank = comm.Get_rank() #number of running processor
 
 print("Benchmarking braodcast performance on %d parallel MPI processes..." % comm.size)
 print()
-print("%15s | %12s | %12s" %
-    ("Size (bytes)", "Time (msec)", "Bandwidth (MiBytes/s)"))
+print("%15s | %12s | %12s | %12s" %
+    ("Size (bytes)", "Time (msec)", "Bandwidth (MiBytes/s)", "processor (number)"))
 
 for s in sizes:
     data = np.ones(s) # ([ s.,  s.,  s.,  s.,  s.]) # return a new array of given shape and type.
     t0 = time()
     for i in xrange(runs):
         comm.Bcast( [data, MPI.DOUBLE], 0) # Broadcast a message from one process to all other processes in a group
-    comm.Barrier() # Global synchronisation operation
     t = (time()-t0) / runs
-    print("%15d | %12.3f | %12.3f" % (data.nbytes, t*1000, data.nbytes/t/1024/1024) ) #number bytes, time (msec) and bandwidth (mybytes)
+    print('waiting synchronisation')
+    comm.Barrier() # Global synchronisation operation
+    print("%15d | %12.3f | %12.3f | %12.3f" % (data.nbytes, t*1000, data.nbytes/t/1024/1024, rank) ) #number bytes, time (msec) and bandwidth (mybytes)
