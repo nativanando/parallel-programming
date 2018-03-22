@@ -14,5 +14,5 @@ comm.Barrier()
 ```
 Gather will be initiated by the master node and it will gather up all of the elements from the worker nodes.
 ```Bash
-comm.gather(self.arrayData, root=0)
+comm.gather(data, root=0)
 ```

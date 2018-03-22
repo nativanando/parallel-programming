@@ -48,17 +48,19 @@ class BarrierSynchronisation:
             for i in xrange(self.runs):
                 self.comm.Bcast( [data, MPI.DOUBLE], 0) # Broadcast a message from one process to all other processes in a group
             t = (time()-t0) / self.runs
+
             print('waiting synchronisation')
             self.comm.Barrier() # Global synchronisation operation
             print("%15d | %12.3f | %12.3f | %d" % (data.nbytes, t*1000, data.nbytes/t/1024/1024, self.rank) ) #number bytes, time (msec) and bandwidth (mybytes)
+
             self.logfile.write("%15d | %12.3f | %12.3f | %d" % (data.nbytes, t*1000, data.nbytes/t/1024/1024, self.rank) )
             self.logfile.write('\n')
             self.arrayData.append('' + str(data.nbytes) + ',' + str(t*1000) + ',' + str(data.nbytes/t/1024/1024) + ',' + str(self.rank) )
-            newData = self.comm.gather(self.arrayData, root=0) #Gather the data for a specific processor
 
+        self.arrayData = self.comm.gather(self.arrayData, root=0) #Gather the data for a specific processor
         if self.rank == 0:
-            print('test', newData)
-            print('length', len(newData))
+            print('test', self.arrayData)
+            print('length', len(self.arrayData))
 
 if __name__ == '__main__':
     barrierTest = BarrierSynchronisation()
