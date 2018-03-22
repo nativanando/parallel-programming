@@ -11,4 +11,7 @@ Synchronization operation. Creates a barrier synchronization in a group. Each ta
 ```Bash
 # Add a Global synchronisation operation
 comm.Barrier()
+
+# Gather will be initiated by the master node and it will gather up all of the elements from the worker nodes.
+comm.gather(self.arrayData, root=0)
 ```
