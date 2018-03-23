@@ -8,33 +8,20 @@ __email__ = "nativanando@gmail.com"
 import sys
 from time import time
 import numpy as np
-import io
-from collections import deque
+from mpi_log import MPILogFile
 # Redirecting the library of mpi4py to network file system path shared
 sys.path.append("/opt/ohpc/pub/libs/gnu7/openmpi3/mpi4py/2.0.0/lib64/python2.7/site-packages/mpi4py/")
 import MPI
 
-class MPILogFile(object):
-    def __init__(self, comm, filename, mode):
-        self.file_handle = MPI.File.Open(comm, filename, mode)
-        self.file_handle.Set_atomicity(True)
-        self.buffer = io.StringIO()
-
-    def write(self, msg):
-        self.file_handle.Write(msg)
-
-    def close(self):
-        self.file_handle.Sync()
-        self.file_handle.Close()
-
-class BarrierSynchronisation:
-    def __init__(self):
+class BarrierSynchronisation(object):
+    def __init__(self, log_file_name):
+        self.log_file_name = log_file_name
         self.sizes = [ 2**n for n in xrange(1,24) ] # size data [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608]
         self.runs  = 20 # number of iterations
         self.comm = MPI.COMM_WORLD
         self.rank = self.comm.Get_rank() #number of running processor
-        self.logfile = MPILogFile(self.comm, "test.log",MPI.MODE_WRONLY | MPI.MODE_APPEND | MPI.MODE_CREATE)
-        self.arrayData = []
+        self.log_file = MPILogFile(self.comm, self.log_file_name, MPI.MODE_WRONLY | MPI.MODE_APPEND | MPI.MODE_CREATE)
+        self.array_data = []
 
     def run_barrier_test(self):
         print("Benchmarking braodcast performance on %d parallel MPI processes..." % self.comm.size)
@@ -52,16 +39,21 @@ class BarrierSynchronisation:
             print('waiting synchronisation')
             self.comm.Barrier() # Global synchronisation operation
             print("%15d | %12.3f | %12.3f | %d" % (data.nbytes, t*1000, data.nbytes/t/1024/1024, self.rank) ) #number bytes, time (msec) and bandwidth (mybytes)
+            self.array_data.append('' + str(data.nbytes) + ',' + str(t*1000) + ',' + str(data.nbytes/t/1024/1024) + ',' + str(self.rank) )
 
-            self.logfile.write("%15d | %12.3f | %12.3f | %d" % (data.nbytes, t*1000, data.nbytes/t/1024/1024, self.rank) )
-            self.logfile.write('\n')
-            self.arrayData.append('' + str(data.nbytes) + ',' + str(t*1000) + ',' + str(data.nbytes/t/1024/1024) + ',' + str(self.rank) )
+        self.array_data = self.comm.gather(self.array_data, root=0) #Gather the data for a specific processor
 
-        self.arrayData = self.comm.gather(self.arrayData, root=0) #Gather the data for a specific processor
         if self.rank == 0:
-            print('test', self.arrayData)
-            print('length', len(self.arrayData))
+            self.export_csv_file()
+
+    def export_csv_file(self):
+        for i in xrange(len(self.array_data)):
+            for j in xrange(len(self.array_data[i])):
+                print(self.array_data[i][j])
+                self.log_file.write(self.array_data[i][j])
+                self.log_file.write('\n')
+
 
 if __name__ == '__main__':
-    barrierTest = BarrierSynchronisation()
+    barrierTest = BarrierSynchronisation('barrier_sync_result.csv')
     barrierTest.run_barrier_test()
