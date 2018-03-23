@@ -14,6 +14,8 @@ class MPILogFile(object):
     def __init__(self, comm, filename, mode):
         self.file_handle = MPI.File.Open(comm, filename, mode)
         self.file_handle.Set_atomicity(True)
+        self.file_handle.Write('bytes-length,msec,bandwidth,processor')
+        self.file_handle.Write('\n')
 
     def write(self, msg):
         self.file_handle.Write(msg)
