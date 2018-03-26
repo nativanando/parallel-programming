@@ -23,7 +23,7 @@ class BarrierSynchronisation(object):
         self.log_file = MPILogFile(self.comm, self.log_file_name, MPI.MODE_WRONLY | MPI.MODE_APPEND | MPI.MODE_CREATE)
         self.array_data = []
 
-    def run_barrier_test(self):
+    def run_barrier(self):
         print("Benchmarking braodcast performance on %d parallel MPI processes..." % self.comm.size)
         print()
         print("%15s | %12s | %12s | %12s" %
@@ -53,7 +53,6 @@ class BarrierSynchronisation(object):
                 self.log_file.write(self.array_data[i][j])
                 self.log_file.write('\n')
 
-
 if __name__ == '__main__':
     barrierTest = BarrierSynchronisation('barrier_sync_result.csv')
-    barrierTest.run_barrier_test()
+    barrierTest.run_barrier()
