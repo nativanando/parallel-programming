@@ -16,10 +16,10 @@ import MPI
 class BarrierSynchronisation(object):
     def __init__(self, log_file_name):
         self.log_file_name = log_file_name
-        self.sizes = [ 2**n for n in xrange(1,24) ] # size data [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608]
-        self.runs  = 20 # number of iterations
+        self.sizes = [ 2**n for n in xrange(1,24) ] # Size data [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608]
+        self.runs  = 20 # Number of iterations
         self.comm = MPI.COMM_WORLD
-        self.rank = self.comm.Get_rank() #number of running processor
+        self.rank = self.comm.Get_rank() # Number of running processor
         self.log_file = MPILogFile(self.comm, self.log_file_name, MPI.MODE_WRONLY | MPI.MODE_APPEND | MPI.MODE_CREATE)
         self.array_data = []
 
@@ -30,7 +30,7 @@ class BarrierSynchronisation(object):
         ("Size (bytes)", "Time (msec)", "Bandwidth (MiBytes/s)", "processor (number)"))
 
         for s in self.sizes:
-            data = np.ones(s) # ([ s.,  s.,  s.,  s.,  s.]) # return a new array of given shape and type.
+            data = np.ones(s) # ([ s.,  s.,  s.,  s.,  s.]) Return a new array of given shape and type.
             t0 = time()
             for i in xrange(self.runs):
                 self.comm.Bcast( [data, MPI.DOUBLE], 0) # Broadcast a message from one process to all other processes in a group
@@ -41,7 +41,7 @@ class BarrierSynchronisation(object):
             print("%15d | %12.3f | %12.3f | %d" % (data.nbytes, t*1000, data.nbytes/t/1024/1024, self.rank) ) #number bytes, time (msec) and bandwidth (mybytes)
             self.array_data.append('' + str(data.nbytes) + ',' + str(t*1000) + ',' + str(data.nbytes/t/1024/1024) + ',' + str(self.rank) )
 
-        self.array_data = self.comm.gather(self.array_data, root=0) #Gather the data for a specific processor
+        self.array_data = self.comm.gather(self.array_data, root=0) # Gather the data for a specific processor
 
         if self.rank == 0:
             self.export_csv_file()
