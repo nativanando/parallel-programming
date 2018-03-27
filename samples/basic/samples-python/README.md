@@ -11,7 +11,6 @@ There are many situations in parallel programming when groups of processes need 
 Creates a barrier synchronization in a group. Each task, when reaching the Barrier() call, blocks until all tasks in the group reach a Barrier() call. Then all tasks are free to proceed.
 
 ```Bash
-# Add a Global synchronisation operation
 comm.Barrier()
 ```
 **Gather:**
