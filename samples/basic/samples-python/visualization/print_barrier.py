@@ -52,6 +52,7 @@ class GraphicsGenerator:
             print(i)
             self.datasets.append(self.df[self.df['processor'] == i])
         print(self.number_of_processors)
+        
 if __name__ == '__main__':
     exportgraphic = GraphicsGenerator('barrier_sync_result', 'cluster_broadcasting')
     exportgraphic.create_dataframes()
