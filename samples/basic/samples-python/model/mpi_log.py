@@ -1,6 +1,5 @@
 """
 This file is a test for shared mpi4py libraries in a cluster environment.
-The application can be run by: mpiexec --hostfile /tmp/machines -np $N_PROCES --allow-run-as-root python mpi4pySharing.py
 """
 __author__ = "Fernando Demarchi Natividade Luiz"
 __email__ = "nativanando@gmail.com"
