@@ -38,7 +38,7 @@ class BarrierSynchronisation(object):
 
             print('waiting synchronisation')
             self.comm.Barrier() # Global synchronisation operation
-            print("%15d | %12.3f | %12.3f | %d" % (data.nbytes, t*1000, data.nbytes/t/1024/1024, self.rank) ) #number bytes, time (msec) and bandwidth (mybytes)
+            print("%15d | %12.3f | %12.3f | %d" % (data.nbytes, t*1000, data.nbytes/t/1024/1024, self.rank) ) #Number bytes, time (msec) and bandwidth (mybytes)
             self.array_data.append('' + str(data.nbytes) + ',' + str(t*1000) + ',' + str(data.nbytes/t/1024/1024) + ',' + str(self.rank) )
 
         self.array_data = self.comm.gather(self.array_data, root=0) # Gather the data for a specific processor

@@ -36,7 +36,7 @@ class ScatterSynchronisation(object):
         self.data_gather = self.comm.gather(self.data, root=0) # Gather the data for a specific processor
         for i in range(len(self.data)): # Performs the calculation of the split data
             self.data[i] = self.data[i] + 1
-        self.reduction_data = self.comm.reduce(self.data, op=MPI.SUM, root=0) #reduce data to new array with calculation
+        self.reduction_data = self.comm.reduce(self.data, op=MPI.SUM, root=0) # Reduce data to new array with calculation
         self.comm.Barrier()
         t = (time()-t0) * 1000
         print(t)
@@ -44,6 +44,7 @@ class ScatterSynchronisation(object):
         if self.rank == 0:
             print(self.data_gather)
             print(self.reduction_data)
+            print(MPI.Get_version())
 
 if __name__ == '__main__':
     scatter = ScatterSynchronisation()
