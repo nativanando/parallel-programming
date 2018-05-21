@@ -6,8 +6,7 @@ __email__ = "nativanando@gmail.com"
 
 import sys
 # Redirecting the library of mpi4py to network file system path shared
-sys.path.append("/opt/ohpc/pub/libs/gnu7/openmpi3/mpi4py/2.0.0/lib64/python2.7/site-packages/mpi4py/")
-import MPI
+from mpi4py import MPI
 
 class MPILogFile(object):
     def __init__(self, comm, filename, mode):

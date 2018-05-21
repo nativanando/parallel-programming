@@ -5,6 +5,7 @@ The application can be run by: mpiexec --hostfile /tmp/machines -np $N_PROCES --
 __author__ = "Fernando Demarchi Natividade Luiz"
 __email__ = "nativanando@gmail.com"
 
+import os
 import matplotlib.pyplot as plt
 import csv
 import pandas as pd
