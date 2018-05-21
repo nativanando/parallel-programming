@@ -1,0 +1,1152 @@
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+waiting synchronisation
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+waiting synchronisation
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+waiting synchronisation
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+             16 |        0.033 |        0.460 | 14
+             16 |        0.004 |        3.963 | 10
+             16 |        0.007 |        2.332 | 6
+             16 |        0.034 |        0.455 | 12
+             16 |        0.003 |        4.369 | 8
+             16 |        0.006 |        2.565 | 4
+             16 |        0.094 |        0.162 | 15
+             16 |        0.046 |        0.335 | 11
+             16 |        0.047 |        0.325 | 7
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+             16 |        0.008 |        1.919 | 2
+waiting synchronisation
+             16 |        0.007 |        2.211 | 0
+waiting synchronisation
+Benchmarking braodcast performance on 16 parallel MPI processes...
+()
+   Size (bytes) |  Time (msec) | Bandwidth (MiBytes/s) | processor (number)
+waiting synchronisation
+             16 |        0.007 |        2.294 | 3
+             16 |        0.007 |        2.088 | 1
+waiting synchronisation
+waiting synchronisation
+             32 |        0.007 |        4.391 | 1
+             16 |        0.116 |        0.131 | 13
+             16 |        0.037 |        0.409 | 9
+             16 |        0.053 |        0.290 | 5
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+             32 |        0.296 |        0.103 | 15
+             32 |        0.036 |        0.855 | 9
+             32 |        0.242 |        0.126 | 7
+             32 |        0.092 |        0.332 | 13
+             32 |        0.041 |        0.748 | 5
+             32 |        0.072 |        0.423 | 12
+             32 |        0.040 |        0.754 | 8
+             32 |        0.038 |        0.811 | 4
+             32 |        0.073 |        0.420 | 14
+             32 |        0.040 |        0.764 | 10
+             32 |        0.039 |        0.781 | 6
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+             32 |        0.008 |        4.038 | 2
+waiting synchronisation
+             32 |        0.006 |        4.914 | 0
+waiting synchronisation
+waiting synchronisation
+             32 |        0.209 |        0.146 | 3
+waiting synchronisation
+             32 |        0.237 |        0.129 | 11
+waiting synchronisation
+             64 |        0.006 |       10.513 | 3
+             64 |        0.550 |        0.111 | 1
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+             64 |        0.039 |        1.563 | 6
+             64 |        0.069 |        0.890 | 14
+             64 |        0.036 |        1.674 | 10
+             64 |        0.584 |        0.104 | 7
+             64 |        0.626 |        0.097 | 15
+             64 |        0.037 |        1.650 | 8
+             64 |        0.039 |        1.575 | 4
+             64 |        0.068 |        0.895 | 12
+             64 |        0.031 |        1.956 | 11
+             64 |        0.585 |        0.104 | 5
+             64 |        0.627 |        0.097 | 13
+             64 |        0.589 |        0.104 | 9
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+             64 |        0.006 |       10.711 | 0
+waiting synchronisation
+             64 |        0.007 |        8.967 | 2
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+            128 |        0.006 |       20.480 | 2
+waiting synchronisation
+            128 |        0.006 |       20.157 | 0
+            128 |        0.826 |        0.148 | 3
+waiting synchronisation
+            128 |        0.445 |        0.275 | 10
+            128 |        0.446 |        0.274 | 6
+            128 |        0.509 |        0.240 | 14
+            128 |        1.324 |        0.092 | 9
+            128 |        0.442 |        0.276 | 4
+            128 |        0.509 |        0.240 | 12
+            128 |        0.412 |        0.296 | 8
+            128 |        1.330 |        0.092 | 5
+            128 |        1.394 |        0.088 | 13
+            128 |        1.485 |        0.082 | 11
+            128 |        1.481 |        0.082 | 7
+            128 |        1.544 |        0.079 | 15
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+            128 |        1.266 |        0.096 | 1
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+            256 |        1.996 |        0.122 | 1
+            256 |        0.856 |        0.285 | 13
+            256 |        0.823 |        0.297 | 9
+            256 |        0.791 |        0.309 | 5
+            256 |        0.730 |        0.334 | 0
+            256 |        0.008 |       29.942 | 2
+            256 |        2.606 |        0.094 | 3
+            256 |        0.134 |        1.819 | 12
+            256 |        0.070 |        3.483 | 8
+            256 |        0.070 |        3.478 | 6
+            256 |        0.135 |        1.811 | 14
+            256 |        0.071 |        3.458 | 10
+            256 |        0.069 |        3.528 | 4
+            256 |        2.654 |        0.092 | 15
+            256 |        2.651 |        0.092 | 11
+            256 |        2.649 |        0.092 | 7
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+            512 |        0.803 |        0.608 | 0
+            512 |        1.847 |        0.264 | 1
+            512 |        1.750 |        0.279 | 3
+waiting synchronisation
+            512 |        0.827 |        0.590 | 8
+            512 |        0.844 |        0.578 | 6
+            512 |        2.008 |        0.243 | 13
+            512 |        1.817 |        0.269 | 11
+            512 |        0.812 |        0.601 | 4
+            512 |        1.876 |        0.260 | 15
+            512 |        0.859 |        0.569 | 10
+            512 |        1.912 |        0.255 | 5
+            512 |        0.876 |        0.557 | 12
+            512 |        1.916 |        0.255 | 9
+            512 |        1.813 |        0.269 | 7
+            512 |        0.877 |        0.556 | 14
+            512 |        0.802 |        0.609 | 2
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+           1024 |        0.592 |        1.649 | 1
+           1024 |        0.361 |        2.706 | 3
+           1024 |        0.208 |        4.689 | 2
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+           1024 |        0.824 |        1.185 | 13
+           1024 |        0.778 |        1.255 | 11
+           1024 |        0.781 |        1.250 | 7
+           1024 |        0.824 |        1.186 | 15
+           1024 |        0.784 |        1.245 | 9
+           1024 |        0.782 |        1.248 | 5
+           1024 |        0.751 |        1.301 | 12
+           1024 |        0.778 |        1.255 | 10
+           1024 |        0.710 |        1.376 | 4
+           1024 |        0.713 |        1.370 | 14
+           1024 |        0.649 |        1.504 | 6
+           1024 |        0.588 |        1.662 | 0
+           1024 |        0.745 |        1.310 | 8
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+           2048 |        4.507 |        0.433 | 2
+           2048 |        4.812 |        0.406 | 1
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+           2048 |        4.998 |        0.391 | 14
+           2048 |        4.999 |        0.391 | 9
+           2048 |        4.965 |        0.393 | 5
+           2048 |        4.999 |        0.391 | 13
+           2048 |        4.692 |        0.416 | 10
+           2048 |        4.965 |        0.393 | 6
+           2048 |        5.699 |        0.343 | 15
+           2048 |        5.703 |        0.342 | 7
+           2048 |        4.345 |        0.450 | 0
+           2048 |        5.699 |        0.343 | 12
+           2048 |        5.331 |        0.366 | 8
+           2048 |        5.670 |        0.344 | 4
+waiting synchronisation
+           2048 |        5.495 |        0.355 | 3
+waiting synchronisation
+waiting synchronisation
+           2048 |        5.701 |        0.343 | 11
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+           4096 |        0.622 |        6.280 | 1
+           4096 |        1.418 |        2.755 | 3
+           4096 |        0.624 |        6.257 | 2
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+           4096 |        0.817 |        4.783 | 13
+           4096 |        0.783 |        4.988 | 9
+           4096 |        0.745 |        5.243 | 5
+           4096 |        1.865 |        2.094 | 15
+           4096 |        1.418 |        2.755 | 11
+           4096 |        1.871 |        2.088 | 7
+           4096 |        0.817 |        4.783 | 14
+           4096 |        0.783 |        4.987 | 10
+           4096 |        0.745 |        5.244 | 6
+           4096 |        0.043 |       91.607 | 0
+           4096 |        1.805 |        2.164 | 12
+           4096 |        1.807 |        2.162 | 8
+           4096 |        1.772 |        2.204 | 4
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+           8192 |        6.198 |        1.261 | 2
+           8192 |        6.956 |        1.123 | 3
+           8192 |        6.272 |        1.246 | 1
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+           8192 |        6.390 |        1.223 | 5
+           8192 |        6.421 |        1.217 | 13
+           8192 |        6.377 |        1.225 | 10
+           8192 |        6.313 |        1.238 | 6
+           8192 |        6.343 |        1.232 | 14
+           8192 |        6.453 |        1.211 | 9
+           8192 |        6.961 |        1.122 | 7
+           8192 |        7.036 |        1.110 | 15
+           8192 |        7.036 |        1.110 | 11
+           8192 |        5.805 |        1.346 | 0
+           8192 |        6.616 |        1.181 | 12
+           8192 |        6.573 |        1.189 | 8
+           8192 |        6.567 |        1.190 | 4
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+          16384 |        3.293 |        4.745 | 3
+          16384 |        1.935 |        8.076 | 1
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+          16384 |        2.066 |        7.563 | 13
+          16384 |        3.294 |        4.743 | 11
+          16384 |        1.981 |        7.888 | 5
+          16384 |        3.303 |        4.731 | 15
+          16384 |        2.055 |        7.602 | 9
+          16384 |        3.296 |        4.741 | 7
+          16384 |        2.066 |        7.562 | 14
+          16384 |        3.019 |        5.176 | 8
+          16384 |        1.981 |        7.888 | 6
+          16384 |        3.016 |        5.180 | 12
+          16384 |        2.056 |        7.601 | 10
+          16384 |        3.010 |        5.191 | 4
+          16384 |        0.966 |       16.167 | 0
+          16384 |        1.938 |        8.063 | 2
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+          32768 |        6.125 |        5.102 | 1
+          32768 |        6.130 |        5.098 | 3
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+          32768 |        6.258 |        4.994 | 9
+          32768 |        6.192 |        5.047 | 7
+waiting synchronisation
+          32768 |        6.225 |        5.020 | 11
+          32768 |        6.223 |        5.022 | 5
+          32768 |        6.254 |        4.997 | 15
+          32768 |        6.260 |        4.992 | 13
+          32768 |        1.957 |       15.964 | 0
+          32768 |        5.976 |        5.229 | 12
+          32768 |        5.947 |        5.255 | 8
+          32768 |        5.878 |        5.316 | 4
+          32768 |        5.851 |        5.341 | 2
+          32768 |        5.981 |        5.225 | 14
+          32768 |        5.979 |        5.227 | 10
+          32768 |        5.946 |        5.255 | 6
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+          65536 |        5.687 |       10.990 | 0
+waiting synchronisation
+          65536 |       11.447 |        5.460 | 2
+waiting synchronisation
+          65536 |       10.941 |        5.712 | 12
+          65536 |       10.943 |        5.711 | 8
+          65536 |       10.908 |        5.730 | 4
+          65536 |       11.314 |        5.524 | 14
+          65536 |       11.315 |        5.523 | 10
+          65536 |       11.281 |        5.540 | 6
+          65536 |       11.159 |        5.601 | 3
+          65536 |       11.223 |        5.569 | 15
+          65536 |       11.192 |        5.584 | 11
+          65536 |       11.189 |        5.586 | 7
+          65536 |       11.880 |        5.261 | 13
+          65536 |       11.880 |        5.261 | 9
+          65536 |       11.844 |        5.277 | 5
+          65536 |       12.007 |        5.205 | 1
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+         131072 |       34.284 |        3.646 | 3
+         131072 |       34.216 |        3.653 | 2
+         131072 |       34.751 |        3.597 | 0
+         131072 |       32.968 |        3.792 | 1
+         131072 |       34.589 |        3.614 | 14
+         131072 |       34.554 |        3.618 | 8
+         131072 |       34.419 |        3.632 | 6
+         131072 |       34.589 |        3.614 | 12
+         131072 |       34.559 |        3.617 | 10
+         131072 |       34.479 |        3.625 | 4
+         131072 |       34.214 |        3.653 | 15
+         131072 |       34.118 |        3.664 | 11
+         131072 |       34.050 |        3.671 | 7
+         131072 |       33.341 |        3.749 | 13
+         131072 |       33.311 |        3.753 | 9
+         131072 |       33.171 |        3.768 | 5
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+         262144 |       58.920 |        4.243 | 1
+waiting synchronisation
+         262144 |       60.250 |        4.149 | 3
+         262144 |       59.409 |        4.208 | 13
+         262144 |       59.380 |        4.210 | 9
+         262144 |       59.283 |        4.217 | 5
+         262144 |       59.847 |        4.177 | 15
+         262144 |       60.018 |        4.165 | 11
+         262144 |       59.983 |        4.168 | 7
+         262144 |       59.131 |        4.228 | 2
+         262144 |       59.711 |        4.187 | 0
+         262144 |       59.922 |        4.172 | 12
+         262144 |       59.895 |        4.174 | 8
+         262144 |       59.776 |        4.182 | 4
+         262144 |       59.618 |        4.193 | 14
+         262144 |       59.589 |        4.195 | 10
+         262144 |       59.492 |        4.202 | 6
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+         524288 |       62.807 |        7.961 | 0
+         524288 |       62.811 |        7.960 | 2
+waiting synchronisation
+waiting synchronisation
+         524288 |       62.980 |        7.939 | 4
+         524288 |       63.055 |        7.930 | 1
+waiting synchronisation
+         524288 |       63.316 |        7.897 | 13
+waiting synchronisation
+         524288 |       63.229 |        7.908 | 5
+waiting synchronisation
+         524288 |       63.067 |        7.928 | 12
+waiting synchronisation
+         524288 |       63.229 |        7.908 | 7
+waiting synchronisation
+         524288 |       63.068 |        7.928 | 14
+waiting synchronisation
+         524288 |       62.981 |        7.939 | 6
+         524288 |       63.315 |        7.897 | 15
+         524288 |       63.018 |        7.934 | 8
+         524288 |       63.019 |        7.934 | 10
+         524288 |       63.059 |        7.929 | 3
+         524288 |       63.267 |        7.903 | 9
+         524288 |       63.267 |        7.903 | 11
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+        1048576 |       89.496 |       11.174 | 1
+        1048576 |       89.658 |       11.153 | 0
+        1048576 |       89.663 |       11.153 | 2
+waiting synchronisation
+waiting synchronisation
+        1048576 |       89.833 |       11.132 | 5
+waiting synchronisation
+        1048576 |       89.899 |       11.124 | 14
+waiting synchronisation
+        1048576 |       89.833 |       11.132 | 7
+waiting synchronisation
+        1048576 |       89.900 |       11.123 | 13
+waiting synchronisation
+        1048576 |       89.834 |       11.132 | 4
+waiting synchronisation
+        1048576 |       89.900 |       11.123 | 15
+waiting synchronisation
+        1048576 |       89.833 |       11.132 | 6
+        1048576 |       89.899 |       11.124 | 12
+        1048576 |       89.847 |       11.130 | 8
+        1048576 |       89.847 |       11.130 | 10
+        1048576 |       89.680 |       11.151 | 9
+        1048576 |       89.446 |       11.180 | 3
+        1048576 |       89.630 |       11.157 | 11
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+        2097152 |      183.291 |       10.912 | 2
+        2097152 |      178.241 |       11.221 | 0
+        2097152 |      182.727 |       10.945 | 14
+        2097152 |      182.719 |       10.946 | 10
+        2097152 |      182.682 |       10.948 | 6
+        2097152 |      182.727 |       10.945 | 12
+        2097152 |      182.719 |       10.946 | 8
+        2097152 |      182.682 |       10.948 | 4
+        2097152 |      180.243 |       11.096 | 1
+        2097152 |      182.351 |       10.968 | 3
+        2097152 |      182.729 |       10.945 | 13
+        2097152 |      182.427 |       10.963 | 11
+        2097152 |      182.683 |       10.948 | 7
+        2097152 |      182.727 |       10.945 | 15
+        2097152 |      182.719 |       10.946 | 9
+        2097152 |      182.682 |       10.948 | 5
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+        4194304 |      326.507 |       12.251 | 1
+        4194304 |      326.812 |       12.239 | 2
+waiting synchronisation
+waiting synchronisation
+        4194304 |      327.094 |       12.229 | 12
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+        4194304 |      326.794 |       12.240 | 13
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+        4194304 |      326.794 |       12.240 | 15
+waiting synchronisation
+waiting synchronisation
+        4194304 |      327.095 |       12.229 | 14
+        4194304 |      326.775 |       12.241 | 9
+        4194304 |      326.686 |       12.244 | 7
+        4194304 |      326.778 |       12.241 | 11
+        4194304 |      326.987 |       12.233 | 4
+        4194304 |      327.077 |       12.230 | 10
+        4194304 |      326.988 |       12.233 | 6
+        4194304 |      326.686 |       12.244 | 5
+        4194304 |      326.753 |       12.242 | 0
+        4194304 |      327.075 |       12.230 | 8
+        4194304 |      326.508 |       12.251 | 3
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+        8388608 |      610.945 |       13.094 | 1
+        8388608 |      610.678 |       13.100 | 3
+waiting synchronisation
+        8388608 |      611.248 |       13.088 | 9
+        8388608 |      611.117 |       13.091 | 5
+waiting synchronisation
+        8388608 |      611.271 |       13.087 | 15
+        8388608 |      611.282 |       13.087 | 11
+        8388608 |      611.156 |       13.090 | 7
+waiting synchronisation
+waiting synchronisation
+        8388608 |      611.271 |       13.087 | 13
+        8388608 |      609.375 |       13.128 | 0
+        8388608 |      611.276 |       13.087 | 12
+        8388608 |      610.964 |       13.094 | 8
+        8388608 |      611.127 |       13.091 | 4
+        8388608 |      611.270 |       13.088 | 14
+        8388608 |      611.253 |       13.088 | 10
+        8388608 |      611.121 |       13.091 | 6
+        8388608 |      610.731 |       13.099 | 2
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+       16777216 |      632.676 |       25.289 | 1
+       16777216 |      631.699 |       25.329 | 2
+waiting synchronisation
+waiting synchronisation
+       16777216 |      631.901 |       25.320 | 6
+waiting synchronisation
+       16777216 |      632.732 |       25.287 | 12
+waiting synchronisation
+       16777216 |      632.499 |       25.296 | 4
+waiting synchronisation
+       16777216 |      633.106 |       25.272 | 15
+       16777216 |      632.294 |       25.305 | 0
+waiting synchronisation
+       16777216 |      632.882 |       25.281 | 7
+waiting synchronisation
+       16777216 |      632.133 |       25.311 | 14
+waiting synchronisation
+       16777216 |      632.847 |       25.283 | 5
+       16777216 |      633.106 |       25.272 | 13
+       16777216 |      632.602 |       25.292 | 8
+       16777216 |      632.990 |       25.277 | 11
+       16777216 |      632.006 |       25.316 | 10
+       16777216 |      632.954 |       25.278 | 9
+       16777216 |      632.574 |       25.293 | 3
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+       33554432 |     1318.552 |       24.269 | 2
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+       33554432 |     1319.402 |       24.253 | 6
+waiting synchronisation
+       33554432 |     1319.608 |       24.250 | 15
+waiting synchronisation
+       33554432 |     1319.410 |       24.253 | 4
+waiting synchronisation
+       33554432 |     1319.603 |       24.250 | 14
+waiting synchronisation
+       33554432 |     1319.348 |       24.254 | 5
+       33554432 |     1319.612 |       24.250 | 12
+       33554432 |     1319.453 |       24.252 | 10
+       33554432 |     1319.437 |       24.253 | 7
+       33554432 |     1319.545 |       24.251 | 13
+       33554432 |     1319.565 |       24.250 | 8
+       33554432 |     1319.598 |       24.250 | 11
+       33554432 |     1318.795 |       24.265 | 1
+       33554432 |     1319.459 |       24.252 | 9
+       33554432 |     1318.799 |       24.264 | 3
+       33554432 |     1318.088 |       24.278 | 0
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+waiting synchronisation
+       67108864 |     2631.011 |       24.325 | 0
+       67108864 |     2632.391 |       24.312 | 1
+       67108864 |     2633.630 |       24.301 | 2
+waiting synchronisation
+       67108864 |     2633.190 |       24.305 | 10
+       67108864 |     2633.027 |       24.307 | 4
+waiting synchronisation
+       67108864 |     2633.242 |       24.305 | 15
+       67108864 |     2633.123 |       24.306 | 9
+       67108864 |     2633.017 |       24.307 | 5
+waiting synchronisation
+       67108864 |     2633.237 |       24.305 | 14
+       67108864 |     2633.182 |       24.305 | 8
+       67108864 |     2633.017 |       24.307 | 6
+waiting synchronisation
+       67108864 |     2633.235 |       24.305 | 13
+       67108864 |     2633.217 |       24.305 | 11
+       67108864 |     2633.051 |       24.306 | 7
+       67108864 |     2633.248 |       24.305 | 12
+       67108864 |     2632.406 |       24.312 | 3
+16,0.00690221786499,2.21070811744,0
+32,0.0062108039856,4.91362763916,0
+64,0.00569820404053,10.7112970711,0
+128,0.00605583190918,20.157480315,0
+256,0.73014497757,0.334372806087,0
+512,0.802505016327,0.608446352441,0
+1024,0.587594509125,1.66196668763,0
+2048,4.34470176697,0.449541787851,0
+4096,0.0426411628723,91.607492312,0
+8192,5.80459833145,1.34591569544,0
+16384,0.966489315033,16.1667591736,0
+32768,1.95749998093,15.9642402577,0
+65536,5.68705797195,10.9898651127,0
+131072,34.7507596016,3.59704367424,0
+262144,59.7109913826,4.18683385104,0
+524288,62.8067493439,7.96092784969,0
+1048576,89.658498764,11.1534323437,0
+2097152,178.241491318,11.2207319699,0
+4194304,326.752793789,12.2416703882,0
+8388608,609.375441074,13.1281956258,0
+16777216,632.29445219,25.3046661165,0
+33554432,1318.088305,24.277584346,0
+67108864,2631.01084232,24.3252513332,0
+16,0.00730752944946,2.088091354,1
+32,0.00694990158081,4.3910806175,1
+64,0.54988861084,0.110995490808,1
+128,1.26575231552,0.096440915812,1
+256,1.9956111908,0.122338773267,1
+512,1.84719562531,0.264336512772,1
+1024,0.59220790863,1.64901968678,1
+2048,4.81219291687,0.405870054202,1
+4096,0.622057914734,6.27956000153,1
+8192,6.27235174179,1.24554558188,1
+16384,1.93469524384,8.07620737674,1
+32768,6.12545013428,5.10166588821,1
+65536,12.0069026947,5.20533909445,1
+131072,32.9683065414,3.79152019358,1
+262144,58.9200019836,4.24304126923,1
+524288,63.0551457405,7.92956695489,1
+1048576,89.4958496094,11.1737025165,1
+2097152,180.242908001,11.0961369975,1
+4194304,326.506841183,12.2508918512,1
+8388608,610.945045948,13.0944674207,1
+16777216,632.676148415,25.2893997033,1
+33554432,1318.79519224,24.264571321,1
+67108864,2632.3913455,24.3124944585,1
+16,0.00795125961304,1.91904047976,2
+32,0.00755786895752,4.03785488959,2
+64,0.00680685043335,8.96672504378,2
+128,0.00596046447754,20.48,2
+256,0.00815391540527,29.9415204678,2
+512,0.80224275589,0.608645259075,2
+1024,0.208258628845,4.68918145392,2
+2048,4.50689792633,0.433363486799,2
+4096,0.624299049377,6.25701737636,2
+8192,6.19765520096,1.26055737963,2
+16384,1.93774700165,8.06348815749,2
+32768,5.85134029388,5.34065674366,2
+65536,11.4465475082,5.46016167364,2
+131072,34.2159986496,3.65326177617,2
+262144,59.1306447983,4.22792615999,2
+524288,62.8106951714,7.96042773664,2
+1048576,89.6627545357,11.1529029548,2
+2097152,183.291101456,10.9116044593,2
+4194304,326.811850071,12.2394582667,2
+8388608,610.731244087,13.099051469,2
+16777216,631.698703766,25.3285306818,2
+33554432,1318.55185032,24.2690494062,2
+67108864,2633.63040686,24.3010559999,2
+16,0.00665187835693,2.29390681004,3
+32,0.208950042725,0.146052031036,3
+64,0.00580549240112,10.5133470226,3
+128,0.825703144073,0.147838013427,3
+256,2.60590314865,0.0936875283053,3
+512,1.74959897995,0.279081809944,3
+1024,0.360953807831,2.70550546583,3
+2048,5.49455881119,0.355465300694,3
+4096,1.41789913177,2.75495619714,3
+8192,6.95555210114,1.12320343323,3
+16384,3.29290628433,4.74504849237,3
+32768,6.13025426865,5.09766783408,3
+65536,11.1585021019,5.60111020541,3
+131072,34.2842459679,3.64598947625,3
+262144,60.2501034737,4.14937046721,3
+524288,63.0589485168,7.92908876155,3
+1048576,89.446246624,11.1798989644,3
+2097152,182.351195812,10.9678469126,3
+4194304,326.507949829,12.2508502537,3
+8388608,610.677552223,13.100203161,3
+16777216,632.573997974,25.2934835312,3
+33554432,1318.79910231,24.2644993798,3
+67108864,2632.40559101,24.3123628891,3
+16,0.00594854354858,2.56513026052,4
+32,0.0376462936401,0.810639645345,4
+64,0.038754940033,1.57490003076,4
+128,0.442051887512,0.276144760261,4
+256,0.0692009925842,3.52799310939,4
+512,0.811803340912,0.601477261046,4
+1024,0.70995092392,1.37553521954,4
+2048,5.67014217377,0.344457853109,4
+4096,1.77243947983,2.20388342985,4
+8192,6.56654834747,1.18974224914,4
+16384,3.01005840302,5.19092918076,4
+32768,5.87819814682,5.31625495083,4
+65536,10.9080076218,5.72973563708,4
+131072,34.4793915749,3.62535399526,4
+262144,59.776198864,4.18226660027,4
+524288,62.9804968834,7.93896562813,4
+1048576,89.8337483406,11.1316739919,4
+2097152,182.682454586,10.947958875,4
+4194304,326.98674202,12.2329118768,4
+8388608,611.127305031,13.0905622023,4
+16777216,632.499098778,25.2964787316,4
+33554432,1319.40970421,24.253270154,4
+67108864,2633.02669525,24.3066278498,4
+16,0.052547454834,0.290381125227,5
+32,0.0408053398132,0.747881974876,5
+64,0.585007667542,0.104332232954,5
+128,1.32979154587,0.0917965773503,5
+256,0.790548324585,0.30882441643,5
+512,1.91195011139,0.255383886374,5
+1024,0.782358646393,1.24822867939,5
+2048,4.9654006958,0.39334690585,5
+4096,0.745105743408,5.24254447715,5
+8192,6.38970136642,1.22267059945,5
+16384,1.98090076447,7.88782572065,5
+32768,6.22268915176,5.02194457056,5
+65536,11.8443012238,5.27679926568,5
+131072,33.1711411476,3.76833583879,5
+262144,59.282553196,4.2170923235,5
+524288,63.2288575172,7.90778166225,5
+1048576,89.8330926895,11.131755237,5
+2097152,182.682049274,10.947983165,5
+4194304,326.685607433,12.2441880174,5
+8388608,611.116909981,13.0907848717,5
+16777216,632.847499847,25.2825522797,5
+33554432,1319.34815645,24.2544015721,5
+67108864,2633.01705122,24.3067168784,5
+16,0.00654458999634,2.33151183971,6
+32,0.0390529632568,0.781440781441,6
+64,0.0390529632568,1.56288156288,6
+128,0.445747375488,0.273855370133,6
+256,0.0702023506165,3.47767023264,6
+512,0.84445476532,0.578220728987,6
+1024,0.649189949036,1.50427852657,6
+2048,4.96454238892,0.393414910579,6
+4096,0.744903087616,5.24397074592,6
+8192,6.31250143051,1.23762348191,6
+16384,1.98088884354,7.88787318934,6
+32768,5.94635009766,5.25532460867,6
+65536,11.2810969353,5.54024137534,6
+131072,34.4188451767,3.63173137734,6
+262144,59.4918012619,4.2022597181,6
+524288,62.9807949066,7.93892806119,6
+1048576,89.8334503174,11.1317109213,6
+2097152,182.682049274,10.947983165,6
+4194304,326.987850666,12.2328704013,6
+8388608,611.121201515,13.090692943,6
+16777216,631.900906563,25.3204257722,6
+33554432,1319.40209866,24.2534099594,6
+67108864,2633.01740885,24.306713577,6
+16,0.0469923019409,0.324708269914,7
+32,0.241947174072,0.126133228222,7
+64,0.58445930481,0.104430121563,7
+128,1.48060321808,0.0824463374181,7
+256,2.64854431152,0.092179173268,7
+512,1.81339979172,0.269262879719,7
+1024,0.781393051147,1.24977116007,7
+2048,5.70334196091,0.34245272568,7
+4096,1.87085866928,2.08794499774,7
+8192,6.96059465408,1.12238973655,7
+16384,3.29575538635,4.74094651099,7
+32768,6.19155168533,5.04720005391,7
+65536,11.189198494,5.58574414725,7
+131072,34.0500473976,3.67106684288,7
+262144,59.9828481674,4.16785810674,7
+524288,63.2290005684,7.90776377145,7
+1048576,89.8334026337,11.1317168301,7
+2097152,182.682597637,10.9479503022,7
+4194304,326.685845852,12.2441790815,7
+8388608,611.155998707,13.0899476025,7
+16777216,632.881700993,25.2811860019,7
+33554432,1319.43715811,24.2527655094,7
+67108864,2633.05081129,24.306405226,7
+16,0.00349283218384,4.36860068259,8
+32,0.0404477119446,0.754494547598,8
+64,0.0369906425476,1.65001611344,8
+128,0.412094593048,0.296219155891,8
+256,0.0700950622559,3.48299319728,8
+512,0.827193260193,0.590286784839,8
+1024,0.745248794556,1.31038454156,8
+2048,5.33130168915,0.366350492597,8
+4096,1.80715322495,2.16154886375,8
+8192,6.57299757004,1.18857491072,8
+16384,3.01851034164,5.17639439045,8
+32768,5.94655275345,5.25514550962,8
+65536,10.9432935715,5.71126047125,8
+131072,34.5535039902,3.61757811988,8
+262144,59.8945021629,4.17400580975,8
+524288,63.0182504654,7.93420947595,8
+1048576,89.8465394974,11.1300892121,8
+2097152,182.719397545,10.9457453717,8
+4194304,327.074956894,12.2296125573,8
+8388608,610.964143276,13.0940581179,8
+16777216,632.602357864,25.2923496112,8
+33554432,1319.56545115,24.2504075658,8
+67108864,2633.18179846,24.3051961082,8
+16,0.0373005867004,0.409076382231,9
+32,0.0357031822205,0.854757929883,9
+64,0.588846206665,0.10365211758,9
+128,1.32374763489,0.0922156982818,9
+256,0.822699069977,0.296755683712,9
+512,1.91550254822,0.254910258644,9
+1024,0.784254074097,1.24521189275,9
+2048,4.99914884567,0.390691507753,9
+4096,0.783145427704,4.98789862242,9
+8192,6.45334720612,1.21061206696,9
+16384,2.05529928207,7.60229915725,9
+32768,6.25799894333,4.9936090247,9
+65536,11.880004406,5.2609408098,9
+131072,33.3110570908,3.75250775319,9
+262144,59.379696846,4.2101932694,9
+524288,63.2670998573,7.90300173593,9
+1048576,89.6803975105,11.1507088256,9
+2097152,182.719147205,10.9457603682,9
+4194304,326.775145531,12.2408330459,9
+8388608,611.247646809,13.0879849465,9
+16777216,632.954096794,25.2782943993,9
+33554432,1319.45909262,24.2523623347,9
+67108864,2633.12319517,24.3057370492,9
+16,0.00385046005249,3.96284829721,10
+32,0.0399470329285,0.763951059385,10
+64,0.0364542007446,1.6742969261,10
+128,0.444650650024,0.274530831099,10
+256,0.070595741272,3.45829111787,10
+512,0.858592987061,0.568699322448,10
+1024,0.777900218964,1.25538272929,10
+2048,4.69175577164,0.416288718992,10
+4096,0.783252716064,4.98721539023,10
+8192,6.37719631195,1.22506813619,10
+16384,2.05565690994,7.6009765659,10
+32768,5.97900152206,5.22662519564,10
+65536,11.3154053688,5.52344330255,10
+131072,34.5593929291,3.61696168265,10
+262144,59.5890045166,4.19540487424,10
+524288,63.0189538002,7.93412092472,10
+1048576,89.8471474648,11.1300138982,10
+2097152,182.719409466,10.9457446576,10
+4194304,327.077007294,12.2295358916,10
+8388608,611.252641678,13.0878779976,10
+16777216,632.005941868,25.316217681,10
+33554432,1319.45279837,24.252478027,10
+67108864,2633.1895113,24.3051249161,10
+16,0.0455021858215,0.335341891538,11
+32,0.237250328064,0.128630288413,11
+64,0.0311970710754,1.95643867023,11
+128,1.48494243622,0.0822054172085,11
+256,2.65139341354,0.0920801204955,11
+512,1.81670188904,0.268773458621,11
+1024,0.778150558472,1.254978859,11
+2048,5.70105314255,0.342590211171,11
+4096,1.41764879227,2.75544268884,11
+8192,7.03594684601,1.11036938894,11
+16384,3.29439640045,4.74290221962,11
+32768,6.22475147247,5.02028075148,11
+65536,11.1921548843,5.58426868158,11
+131072,34.1179609299,3.66375939808,11
+262144,60.0177049637,4.165437518,11
+524288,63.2670521736,7.90300769234,11
+1048576,89.6301984787,11.156953984,11
+2097152,182.426548004,10.963316589,11
+4194304,326.777851582,12.2407316795,11
+8388608,611.28205061,13.0872483365,11
+16777216,632.989597321,25.2768766939,11
+33554432,1319.5979476,24.2498103746,11
+67108864,2633.21723938,24.3048689804,11
+16,0.0335454940796,0.45486851457,12
+32,0.0721096992493,0.423210448008,12
+64,0.068199634552,0.894948435588,12
+128,0.508797168732,0.239919402076,12
+256,0.134253501892,1.81850470609,12
+512,0.876045227051,0.557369910734,12
+1024,0.750553607941,1.30112291736,12
+2048,5.69875240326,0.342728524033,12
+4096,1.80510282516,2.16400414732,12
+8192,6.61640167236,1.18077776817,12
+16384,3.01624536514,5.18028147861,12
+32768,5.97645044327,5.22885620765,12
+65536,10.9409451485,5.71248636675,12
+131072,34.5893025398,3.6138340707,12
+262144,59.9220991135,4.17208348337,12
+524288,63.0671024323,7.92806361347,12
+1048576,89.8994445801,11.1235392462,12
+2097152,182.727301121,10.9452719311,12
+4194304,327.094101906,12.2288967508,12
+8388608,611.276102066,13.0873756932,12
+16777216,632.731759548,25.2871770044,12
+33554432,1319.6118474,24.2495549453,12
+67108864,2633.2475543,24.3045891737,12
+16,0.116109848022,0.131416837782,13
+32,0.0918507575989,0.332251784555,13
+64,0.627446174622,0.0972755253258,13
+128,1.393699646,0.0875872451074,13
+256,0.856006145477,0.285208962914,13
+512,2.00760364532,0.243215961047,13
+1024,0.824248790741,1.18479094051,13
+2048,4.99880313873,0.390718527174,13
+4096,0.816702842712,4.78295139396,13
+8192,6.42085075378,1.21673907393,13
+16384,2.06609964371,7.56255877958,13
+32768,6.25959634781,4.99233469119,13
+65536,11.8800401688,5.26092497266,13
+131072,33.3410024643,3.74913742122,13
+262144,59.4086050987,4.20814458755,13
+524288,63.3161902428,7.89687437104,13
+1048576,89.8998975754,11.123483196,13
+2097152,182.728803158,10.9451819606,13
+4194304,326.793801785,12.2401342319,13
+8388608,611.271202564,13.087480592,13
+16777216,633.105957508,25.2722309911,13
+33554432,1319.54519749,24.2507797845,13
+67108864,2633.23489428,24.3047060249,13
+16,0.0331997871399,0.45960502693,14
+32,0.0726938247681,0.419809773696,14
+64,0.0685453414917,0.890434782609,14
+128,0.508952140808,0.239846348433,14
+256,0.134801864624,1.81110718076,14
+512,0.877439975739,0.556483934515,14
+1024,0.712943077087,1.36976223121,14
+2048,4.99809980392,0.390773509258,14
+4096,0.816643238068,4.78330048902,14
+8192,6.34335279465,1.23160420883,14
+16384,2.06620693207,7.56216609164,14
+32768,5.98130226135,5.22461474685,14
+65536,11.3144516945,5.52390886343,14
+131072,34.5888018608,3.61388638158,14
+262144,59.6178531647,4.19337474816,14
+524288,63.0679488182,7.92795721708,14
+1048576,89.8992538452,11.1235628465,14
+2097152,182.727098465,10.9452840701,14
+4194304,327.094554901,12.2288798149,14
+8388608,611.27024889,13.0875010104,14
+16777216,632.133340836,25.311115498,14
+33554432,1319.60320473,24.2497137665,14
+67108864,2633.23739767,24.3046829187,14
+16,0.0940561294556,0.162230671736,15
+32,0.295555591583,0.103254950994,15
+64,0.62620639801,0.097468113459,15
+128,1.54424905777,0.0790483321883,15
+256,2.65439748764,0.0919759102157,15
+512,1.87640190125,0.260222103631,15
+1024,0.823557376862,1.1857856264,15
+2048,5.69939613342,0.342689813846,15
+4096,1.86544656754,2.09400262006,15
+8192,7.03595876694,1.11036750765,15
+16384,3.30274105072,4.73091888224,15
+32768,6.25429153442,4.99656912825,15
+65536,11.2234950066,5.56867535144,15
+131072,34.2143535614,3.65343743162,15
+262144,59.8468542099,4.17732900585,15
+524288,63.3153438568,7.89697993477,15
+1048576,89.8998498917,11.123489096,15
+2097152,182.727146149,10.9452812138,15
+4194304,326.793646812,12.2401400364,15
+8388608,611.270701885,13.0874913117,15
+16777216,633.105695248,25.27224146,15
+33554432,1319.6082592,24.2496208832,15
+67108864,2633.24229717,24.3046376965,15
