@@ -24,10 +24,10 @@ class BenchMarkSpeedUp:
 		plt.plot(self.df3['time'], label="8 processors")
 		plt.plot(self.df4['time'], label="12 processors")
 		plt.plot(self.df5['time'], label="16 processors")
-		plt.title('Processors Time in openFOAM Simulation')
+		plt.title('CELTAB cluster metric')
 		plt.legend(loc='upper left')
-		plt.xlabel("cycles")
-		plt.ylabel("Time (sec)")
+		plt.xlabel("Epochs")
+		plt.ylabel("Execution time (sec)")
    		plt.grid(True)
         	plt.savefig('plot2.png')
 
