@@ -12,12 +12,12 @@ import numpy as np
 
 class BenchMarkMetrics:
 	def __init__(self):
-		self.df1 = pd.read_csv('results/log-out-1x1.txt')
-		self.df2 = pd.read_csv('results/log-out-2x1.txt')
-		self.df3 = pd.read_csv('results/log-out-2x2.txt')
-		self.df4 = pd.read_csv('results/log-out-4x2.txt')
-		self.df5 = pd.read_csv('results/log-out-6x2.txt')
-		self.df6 = pd.read_csv('results/log-out-4x4.txt')
+		self.df1 = pd.read_csv('results-512/log-out-1x1.txt')
+		self.df2 = pd.read_csv('results-512/log-out-2x1.txt')
+		self.df3 = pd.read_csv('results-512/log-out-2x2.txt')
+		self.df4 = pd.read_csv('results-512/log-out-4x2.txt')
+		self.df5 = pd.read_csv('results-512/log-out-6x2.txt')
+		self.df6 = pd.read_csv('results-512/log-out-4x4.txt')
 
 	def plot_graph_execution_time(self):
 		# plt.plot(self.df1['time'])
@@ -32,10 +32,10 @@ class BenchMarkMetrics:
 		plt.xlabel('epochs')
 		plt.ylabel('execution time (sec)')
    		plt.grid(True)
-        	plt.savefig('assets/benchmark.png')
+        	plt.savefig('assets/benchmark-512.png')
 
 	def print_execution_time(self):
-		with open('ExecutionTime.csv', 'w') as csvfile:
+		with open('ExecutionTime-512.csv', 'w') as csvfile:
     			writer = csv.DictWriter(csvfile, fieldnames= ['amount_processor', 'time_max', 'speedup', 'efficiency'])
     			writer.writeheader()
     			writer.writerow({'amount_processor': 1, 'time_max': self.df1['time'].max()})
@@ -49,33 +49,33 @@ class BenchMarkMetrics:
 
 	def speedup_calculation(self):
 		# s(p) = t(1) / t(p)
-		data = pd.read_csv('ExecutionTime.csv')
+		data = pd.read_csv('ExecutionTime-512.csv')
 		for i in range(1, data['amount_processor'].count()):
 			data['speedup'][i] = (data['time_max'][0] / data['time_max'][i])
 			data['efficiency'][i] = (data['speedup'][i] / data['amount_processor'][i])
 		data = self.clean_nan_values(data)
-		data.to_csv('ExecutionTime.csv')
+		data.to_csv('ExecutionTime-512.csv')
 
 	def plot_graph_speedup(self):
-		data = pd.read_csv('ExecutionTime.csv')
+		data = pd.read_csv('ExecutionTime-512.csv')
 		plt.plot(data['amount_processor'], data['speedup'], label="IcoFoam Cavity Simulation", marker='o', linestyle='--', color='g')
 		plt.title('CELTAB Cluster Metrics')
 		plt.legend(loc='upper left')
 		plt.xlabel('cores')
 		plt.ylabel('speedup')
 		plt.grid(True)
-		plt.savefig('assets/speedup.png')
+		plt.savefig('assets/speedup-512.png')
 		self.clear_buffer_plt()
 
 	def plot_graph_efficiency(self):
-		data = pd.read_csv('ExecutionTime.csv')
+		data = pd.read_csv('ExecutionTime-512.csv')
 		plt.plot(data['amount_processor'], data['efficiency'], label="IcoFoam Cavity Simulation", marker='o', linestyle='--', color='r')
 		plt.title('CELTAB Cluster Metrics')
 		plt.legend(loc='upper right')
 		plt.xlabel('cores')
 		plt.ylabel('efficiency')
 		plt.grid(True)
-		plt.savefig('assets/efficiency.png')
+		plt.savefig('assets/efficiency-512.png')
 		self.clear_buffer_plt()
 
 	def clean_nan_values(self, dataset):
