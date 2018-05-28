@@ -32,7 +32,7 @@ class BenchMarkMetrics:
 		plt.xlabel('epochs')
 		plt.ylabel('execution time (sec)')
    		plt.grid(True)
-        	plt.savefig('benchmark.png')
+        	plt.savefig('assets/benchmark.png')
 
 	def print_execution_time(self):
 		with open('ExecutionTime.csv', 'w') as csvfile:
@@ -64,7 +64,7 @@ class BenchMarkMetrics:
 		plt.xlabel('cores')
 		plt.ylabel('speedup')
 		plt.grid(True)
-		plt.savefig('speedup.png')
+		plt.savefig('assets/speedup.png')
 		self.clear_buffer_plt()
 
 	def plot_graph_efficiency(self):
@@ -75,7 +75,7 @@ class BenchMarkMetrics:
 		plt.xlabel('cores')
 		plt.ylabel('efficiency')
 		plt.grid(True)
-		plt.savefig('efficiency.png')
+		plt.savefig('assets/efficiency.png')
 		self.clear_buffer_plt()
 
 	def clean_nan_values(self, dataset):
