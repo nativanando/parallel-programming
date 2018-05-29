@@ -1,0 +1,72 @@
+Warning: Requested    16 MPI processes, but the compiled value is     4
+The compiled value is used for benchmarking
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
+
+ Number of zones:   8 x   8
+ Iterations: 200    dt:   0.000300
+ Number of active processes:     4
+
+ Use the default load factors with threads
+
+ Calculated speedup =      3.99
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.4461388343844E+06 0.4461388343844E+06 0.3522685593672E-14
+           2 0.3799759138035E+05 0.3799759138035E+05 0.1007209553561E-12
+           3 0.8383296623970E+05 0.8383296623970E+05 0.3523719753530E-13
+           4 0.5301970201273E+05 0.5301970201273E+05 0.5914664950324E-13
+           5 0.3618106851311E+06 0.3618106851311E+06 0.2815378616075E-13
+ Comparison of RMS-norms of solution error
+           1 0.4496733567600E+05 0.4496733567600E+05 0.8462422278331E-13
+           2 0.3892068540524E+04 0.3892068540524E+04 0.7314152839061E-13
+           3 0.8763825844217E+04 0.8763825844217E+04 0.4981357053542E-13
+           4 0.5599040091792E+04 0.5599040091792E+04 0.8170611881534E-13
+           5 0.4082652045598E+05 0.4082652045598E+05 0.6380148973720E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        B
+ Size            =            304x  208x 17
+ Iterations      =                      200
+ Time in seconds =                    37.61
+ Total processes =                        4
+ Total threads   =                        4
+ Mop/s total     =                 15987.21
+ Mop/s/thread    =                  3996.80
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              29 May 2018
+
+ Compile options:
+    F77          = mpif77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
