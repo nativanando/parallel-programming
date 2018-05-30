@@ -1,4 +1,4 @@
-Warning: Requested    32 MPI processes, but the compiled value is    16
+Warning: Requested    32 MPI processes, but the compiled value is    24
 The compiled value is used for benchmarking
 
 
@@ -6,11 +6,11 @@ The compiled value is used for benchmarking
 
  Number of zones:  32 x  32
  Iterations: 250    dt:   0.000020
- Number of active processes:    16
+ Number of active processes:    24
 
  Use the default load factors with threads
 
- Calculated speedup =     16.00
+ Calculated speedup =     23.95
 
  Time step    1
  Time step   20
@@ -32,7 +32,7 @@ The compiled value is used for benchmarking
            2 0.4293882192175E+07 0.4293882192175E+07 0.1045435018647E-12
            3 0.9121841878270E+07 0.9121841878270E+07 0.3307977908434E-13
            4 0.6201357771439E+07 0.6201357771439E+07 0.1216461480279E-13
-           5 0.3474801891304E+08 0.3474801891304E+08 0.4652858033658E-13
+           5 0.3474801891304E+08 0.3474801891304E+08 0.4631416291568E-13
  Comparison of RMS-norms of solution error
            1 0.9462418484583E+06 0.9462418484583E+06 0.2066889569383E-13
            2 0.7884728947105E+05 0.7884728947105E+05 0.2214698614396E-13
@@ -46,11 +46,11 @@ The compiled value is used for benchmarking
  Class           =                        D
  Size            =           1632x 1216x 34
  Iterations      =                      250
- Time in seconds =                  1572.89
- Total processes =                       16
- Total threads   =                       16
- Mop/s total     =                 32740.25
- Mop/s/thread    =                  2046.27
+ Time in seconds =                  1146.50
+ Total processes =                       24
+ Total threads   =                       24
+ Mop/s total     =                 44916.77
+ Mop/s/thread    =                  1871.53
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
