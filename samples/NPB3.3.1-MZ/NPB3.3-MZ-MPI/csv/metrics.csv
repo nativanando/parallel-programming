@@ -1,4 +1,4 @@
-amount-np,amount-thread-mops,total-mops,execution-time,speed-up
+amount-np,amount-thread-mops,total-mops,execution-time,speed-up,efficiency
 8,2145.19,17161.51,3000.72,8.00
 12,2080.27,24963.22,2062.91,11.98
 16,2046.27,32740.25,1572.89,16.00
