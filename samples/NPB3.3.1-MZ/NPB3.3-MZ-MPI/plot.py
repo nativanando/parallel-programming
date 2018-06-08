@@ -53,6 +53,16 @@ class BenchmarkNasa():
 		plt.savefig('efficiency.png')
 		self.clear_buffer_plt()
 
+    def plot_mops(self):
+		plt.plot(self.metrics['amount-np'], self.metrics['total-mops'], label="Mop/s total", marker='o', linestyle='--', color='g')
+		plt.title('NAS Parallel benchmarking Mop/s')
+		plt.legend(loc='upper left')
+		plt.xlabel('cores')
+		plt.ylabel('Number os operations/s')
+            #    plt.axis([8,32,0.99,1])
+		plt.grid(True)
+		plt.savefig('mops.png')
+		self.clear_buffer_plt()
 
     def clear_buffer_plt(self):
         plt.cla()
@@ -68,3 +78,4 @@ if __name__ == '__main__':
     benchmark.plot_speed_up()
     benchmark.efficiency_calculation()
     benchmark.plot_graph_efficiency()
+    benchmark.plot_mops()
