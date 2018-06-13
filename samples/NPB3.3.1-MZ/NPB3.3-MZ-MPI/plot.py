@@ -12,8 +12,8 @@ import pandas as pd
 
 class BenchmarkNasa():
     def __init__(self):
-        self.metrics = pd.read_csv('csv/metrics.csv')
-        print(self.metrics['amount-np'])
+        self.metrics = pd.read_csv('csv/metrics-mpich.csv')
+        self.metrics_openmpi = pd.read_csv('csv/metrics.csv')
 
     def plot_execution_time_decay(self):
         plt.plot(self.metrics['amount-np'], self.metrics['execution-time'], label='used processors', marker='o', linestyle='--', color='g')
@@ -22,7 +22,7 @@ class BenchmarkNasa():
         plt.xlabel('cores')
         plt.ylabel('Execution time (sec)')
         plt.grid(True)
-        plt.savefig('execution-time-decay.png')
+        plt.savefig('execution-time-decay-mpich.png')
         self.clear_buffer_plt()
 
     def plot_speed_up(self):
@@ -32,7 +32,7 @@ class BenchmarkNasa():
         plt.xlabel('cores')
         plt.ylabel('Speed up calculation')
         plt.grid(True)
-        plt.savefig('speed-up.png')
+        plt.savefig('speed-up-mpich.png')
         self.clear_buffer_plt()
 
     def efficiency_calculation(self):
@@ -40,7 +40,7 @@ class BenchmarkNasa():
 		for i in range(0, self.metrics['amount-np'].count()):
 			self.metrics['efficiency'][i] = (self.metrics['speed-up'][i] / self.metrics['amount-np'][i])
 		self.metrics = self.clean_nan_values(self.metrics)
-		self.metrics.to_csv('test.csv')
+		self.metrics.to_csv('mpich-results.csv')
 
     def plot_graph_efficiency(self):
 		plt.plot(self.metrics['amount-np'], self.metrics['efficiency'], label="used processors", marker='o', linestyle='--', color='r')
@@ -50,7 +50,7 @@ class BenchmarkNasa():
 		plt.ylabel('efficiency')
             #    plt.axis([8,32,0.99,1])
 		plt.grid(True)
-		plt.savefig('efficiency.png')
+		plt.savefig('efficiency-mpich.png')
 		self.clear_buffer_plt()
 
     def plot_mops(self):
@@ -61,7 +61,7 @@ class BenchmarkNasa():
 		plt.ylabel('Mop/s')
             #    plt.axis([8,32,0.99,1])
 		plt.grid(True)
-		plt.savefig('mops.png')
+		plt.savefig('mops-mpich.png')
 		self.clear_buffer_plt()
 
     def clear_buffer_plt(self):
