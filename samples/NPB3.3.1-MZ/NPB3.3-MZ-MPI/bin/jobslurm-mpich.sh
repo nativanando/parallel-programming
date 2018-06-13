@@ -11,4 +11,4 @@
 #SBATCH --error="slurm-%j.err.out.log" # job standard error file (%j replaced by job id)
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
 
-mpiexec --hostfile machines --allow-run-as-root bt-mz.D.16
+/opt/ohpc/pub/mpi/mpich-gnu7-ohpc/3.2.1/bin/mpiexec -n 8 --hostfile machines $PWD/bt-mz.D.8

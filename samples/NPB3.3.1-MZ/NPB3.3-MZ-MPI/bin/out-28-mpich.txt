@@ -1,0 +1,72 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
+
+ Number of zones:  32 x  32
+ Iterations: 250    dt:   0.000020
+ Number of active processes:    28
+
+ Use the default load factors with threads
+
+ Calculated speedup =     27.93
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.4250417034981E+08 0.4250417034981E+08 0.1945725418123E-13
+           2 0.4293882192175E+07 0.4293882192175E+07 0.1043266066327E-12
+           3 0.9121841878270E+07 0.9121841878270E+07 0.3307977908434E-13
+           4 0.6201357771439E+07 0.6201357771439E+07 0.1201443437313E-13
+           5 0.3474801891304E+08 0.3474801891304E+08 0.4652858033658E-13
+ Comparison of RMS-norms of solution error
+           1 0.9462418484583E+06 0.9462418484583E+06 0.2066889569383E-13
+           2 0.7884728947105E+05 0.7884728947105E+05 0.2196242792609E-13
+           3 0.1902874461259E+06 0.1902874461259E+06 0.1234279594201E-12
+           4 0.1361858029909E+06 0.1361858029909E+06 0.6496686339205E-13
+           5 0.9816489456253E+06 0.9816489456253E+06 0.4577635867227E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        D
+ Size            =           1632x 1216x 34
+ Iterations      =                      250
+ Time in seconds =                   961.00
+ Total processes =                       28
+ Total threads   =                       28
+ Mop/s total     =                 53586.82
+ Mop/s/thread    =                  1913.81
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Jun 2018
+
+ Compile options:
+    F77          = mpif77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
