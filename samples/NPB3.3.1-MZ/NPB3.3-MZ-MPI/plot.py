@@ -58,7 +58,7 @@ class BenchmarkNasa():
 		plt.title('NAS Parallel benchmarking Mop/s')
 		plt.legend(loc='upper left')
 		plt.xlabel('cores')
-		plt.ylabel('Number os operations/s')
+		plt.ylabel('Mop/s')
             #    plt.axis([8,32,0.99,1])
 		plt.grid(True)
 		plt.savefig('mops.png')

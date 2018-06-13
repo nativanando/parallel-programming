@@ -14,7 +14,7 @@ bt-mz: header
 SP-MZ: sp-mz
 sp-mz: header
 	cd SP-MZ; $(MAKE) CLASS=$(CLASS) NPROCS=$(NPROCS)
-		       
+
 LU-MZ: lu-mz
 lu-mz: header
 	cd LU-MZ; $(MAKE) CLASS=$(CLASS) NPROCS=$(NPROCS) VERSION=$(VERSION)
@@ -38,5 +38,3 @@ veryclean: clean
 
 header:
 	@ sys/print_header
-
-
